@@ -1,10 +1,12 @@
 package com.vg.principles.solid.liskovsubstitution.bydefinition;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
+@EqualsAndHashCode(callSuper=false)
 public class VolumeCalculator extends AreaCalculator {
 
     double computedVolume;
