@@ -1,23 +1,53 @@
-# Compiled class file
-*.class
+/.gradle/
+**/.DS_Store
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+*target*
 *.jar
 *.war
-*.nar
 *.ear
+*.class
 *.zip
-*.tar.gz
 *.rar
+*.tar
+*.tar.gz
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# logs specific
+**/logs/
+**/log/
+*.log
+
+# Intellij idea specific
+/.idea/
+**/target/*
+**/build/*
+**/out/
+*.iws
+
+build/
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+**/bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.target
+.externalToolBuilders/
+*.launch
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
