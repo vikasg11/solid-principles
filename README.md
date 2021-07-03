@@ -1,6 +1,9 @@
 ## S.O.L.I.D Principles - Illustrated by Examples
 
-![SOLID Design Principles Revisited ](./images/SOLID-Principles-overview.jpg)
+In Software Development, Object Oriented programming concepts and design principles play a vital role to come up with scalable, flexible, maintainable, and reusable code. S.O.L.I.D. is a mnemonic acronym for the five principles intended to make software designs more understandable, flexible, and maintainable. The principles are a subset of many principles promoted by American software engineer and instructor Robert C. Martin, first introduced in his 2000 paper Design Principles and Design Patterns.
+
+The application of the principles is universal and is not in relation to any specific programming language.
+
 
 #### The Single-Responsibility Principle
 There should never be more than one reason for a class to change. In other words, every class should have only one responsibility.
